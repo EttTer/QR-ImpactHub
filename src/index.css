@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Poppins;
+
+}
+
+body {text-align: center;
+  background-color: #CCCCCC;
+color: #812926;}
+
+.app {padding: 1rem;}
+
+h1 {font-size:  2.5rem;
+margin: 3rem;}
+
+input {
+  appearance: none;
+  outline: none;
+  border: none;
+  background: #eee;
+  width: 100%;
+  max-width: 300px;
+  padding:  0.5rem 1rem;
+  border-radius: 0.5rem;
+  margin-top: 4rem;
+  margin-right: 1rem;
+}
+
+button, a {
+  appearance: none;
+  outline: none;
+  border: none;
+  background: none;
+  color:#404040;
+  font-size: 1.5rem;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  
+}
+
+.App_img { display:  block
+  ;
+  width: 100%;
+  max-width: 350px;
+  margin: 3rem auto;
+
+
+}
+
+.ilustrace {width: 50%;
+max-width: 100px;}
+
+.Hero {display: flex;
+justify-content: center;
+align-items: center;}
