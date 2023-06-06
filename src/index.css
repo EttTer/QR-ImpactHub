@@ -25,8 +25,17 @@ input {
   padding:  0.5rem 1rem;
   border-radius: 0.5rem;
   margin-top: 4rem;
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
+
+
+@media screen and (max-width: 900px) {
+  input {
+    width: 80%;
+    margin: 2rem auto;
+  }
+}
+
 
 button, a {
   appearance: none;
@@ -38,8 +47,15 @@ button, a {
   line-height: 1;
   text-decoration: none;
   cursor: pointer;
-  
+    
 }
+
+@media screen and (max-width: 900px) {
+  button {
+    margin: 2rem auto;
+  }
+}
+
 
 .App_img { display:  block
   ;
@@ -56,3 +72,10 @@ max-width: 100px;}
 .Hero {display: flex;
 justify-content: center;
 align-items: center;}
+
+@media screen and (max-width: 900px) {
+  .hero {
+    width: 80%;
+    display: block;
+  }
+}
