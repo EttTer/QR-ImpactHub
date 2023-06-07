@@ -80,6 +80,12 @@ align-items: center;}
   }
 }
 
+.list{width:50%;
+margin: 1rem auto;
+text-align: start;}
+
+
+
 footer {
   position: fixed;
   left: 0;
@@ -89,3 +95,4 @@ footer {
   color: #4040409e;
   padding: 1rem;
 }
+

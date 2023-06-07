@@ -1,3 +1,4 @@
+// Validation
 import QRCode from 'qrcode';
 import { useState } from 'react';
 import picture from "./assets/IH-ilustrace_05.png";
@@ -50,6 +51,10 @@ function App() {
         <h1>QR Generátor Impact Hub</h1>
         <img className='ilustrace' src={picture} />
       </div>
+	  <ul className='list'>
+		<li>Vlož URL adresu stránky, kam má kód odkazovat- do prvního rámečku</li><br></br>
+		<li>Vlož popis čeho se kód týká nebo kde bude použit- do druhého rámečku</li>
+	  </ul>
       <input
         type="text"
         placeholder="e.g. https://impacthub.cz"
@@ -141,22 +146,6 @@ function App() {
 }
 
 export default App;/* 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
