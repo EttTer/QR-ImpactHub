@@ -40,7 +40,7 @@ function App() {
       />
 	  <input
         type="text"
-        placeholder="e.g.“zivy_region_letak"
+        placeholder="e.g. zivy_region_letak"
         value={campaign}
         onChange={e => setCampaign(e.target.value)}
       />
