@@ -72,7 +72,7 @@ function App() {
       {qr && (
         <>
           <img className='App_img' src={qr} />
-          <a href={qr} download="qrcode.png">Stáhnout</a>
+          <a className="download" href={qr} download="qrcode.png">Stáhnout</a>
         </>
       )}
     </div>
