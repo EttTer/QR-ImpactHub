@@ -12,14 +12,13 @@ function App() {
 
   const [error, setError] = useState('');
 
-
   const GenerateQRCode = () => {
     if (!url) {
-      setError('URL is required');
+      setError('Zadej URL stránky prosím');
       return;
     }
 	if (!campaign) {
-		setError('Name of the campaign is required');
+		setError('Zadej popis kampaně prosím');
 		return;
 	  }
 
@@ -53,8 +52,8 @@ function App() {
         <img className='ilustrace' src={picture} />
       </div>
 	  <ul className='list'>
-		<li>Vlož URL adresu stránky, kam má kód odkazovat- do prvního rámečku</li><br></br>
-		<li>Vlož popis čeho se kód týká nebo kde bude použit- do druhého rámečku</li>
+		<li>Vlož URL adresu stránky, kam má kód odkazovat-do prvního rámečku</li><br></br>
+		<li>Vlož popis čeho se kód týká nebo kde bude použit-do druhého rámečku</li>
 	  </ul>
       <input
         type="text"
