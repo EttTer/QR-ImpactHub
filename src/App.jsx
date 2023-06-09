@@ -32,7 +32,8 @@ function App() {
       margin: 2,
       color: {
         dark: '#812926',
-        light: '#EEEEEEFF'
+        //Add transparent background of the image, instead of: light: '#EEEEEEFF'
+        light: '#0000'
       }
     }, (err, url) => {
         if (err) return console.error(err);
@@ -76,7 +77,7 @@ function App() {
         </>
       )}
     </div>
-	<footer>© Tereza Ettlerová</footer>
+	<footer> <a href='https://www.linkedin.com/in/tereza-ettlerov%C3%A1/'>© Tereza Ettlerová</a> </footer>
 	</>
   );
 }
