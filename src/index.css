@@ -32,7 +32,7 @@ input {
 @media screen and (max-width: 900px) {
   input {
     width: 80%;
-    margin: 2rem auto;
+    margin: 1.5rem auto;
   }
 }
 
@@ -52,7 +52,7 @@ button, a {
 
 @media screen and (max-width: 900px) {
   button {
-    margin: 2rem auto;
+    margin: 1.5rem auto;
   }
 }
 
@@ -61,7 +61,7 @@ button, a {
   ;
   width: 100%;
   max-width: 350px;
-  margin: 3rem auto 1rem auto;
+  margin: 3rem auto 2rem auto;
 
 
 }
@@ -92,7 +92,7 @@ color:#404040}
 }
 
 .download {padding-bottom: 2rem;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
 
 }
 
