@@ -2,18 +2,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:Poppins;
-
+  font-family: Poppins;
 }
 
-body {text-align: center;
-  background-color: #CCCCCC;
-color: #812926;}
+body {
+  text-align: center;
+  background-color: #cccccc;
+  color: #812926;
+}
 
-.app {padding: 1rem;}
+.app {
+  padding: 1rem;
+}
 
-h1 {font-size:  2.5rem;
-margin: 3rem;}
+h1 {
+  font-size: 2.5rem;
+  margin: 3rem;
+}
 
 input {
   appearance: none;
@@ -22,12 +27,11 @@ input {
   background: #eee;
   width: 100%;
   max-width: 300px;
-  padding:  0.5rem 1rem;
+  padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   margin-top: 2rem;
   margin-right: 2rem;
 }
-
 
 @media screen and (max-width: 900px) {
   input {
@@ -36,18 +40,17 @@ input {
   }
 }
 
-
-button, a {
+button,
+a {
   appearance: none;
   outline: none;
   border: none;
   background: none;
-  color:#404040;
+  color: #404040;
   font-size: 1.5rem;
   line-height: 1;
   text-decoration: none;
   cursor: pointer;
-    
 }
 
 @media screen and (max-width: 900px) {
@@ -56,22 +59,23 @@ button, a {
   }
 }
 
-
-.App_img { display:  block
-  ;
+.App_img {
+  display: block;
   width: 100%;
   max-width: 300px;
   margin: 3rem auto 2rem auto;
-
-
 }
 
-.ilustrace {width: 50%;
-max-width: 100px;}
+.ilustrace {
+  width: 50%;
+  max-width: 100px;
+}
 
-.Hero {display: flex;
-justify-content: center;
-align-items: center;}
+.Hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 @media screen and (max-width: 900px) {
   .hero {
@@ -80,20 +84,22 @@ align-items: center;}
   }
 }
 
-.list{width:40%;
-margin: 1rem auto;
-text-align: start;
-color:#404040}
+.list {
+  width: 40%;
+  margin: 1rem auto;
+  text-align: start;
+  color: #404040;
+}
 
 @media screen and (max-width: 900px) {
-  .list{
+  .list {
     width: 80%;
   }
 }
 
-.download {padding-bottom: 2rem;
+.download {
+  padding-bottom: 2rem;
   padding-top: 1rem;
-
 }
 
 footer a {
@@ -101,8 +107,7 @@ footer a {
   left: 0;
   bottom: 20px;
   width: 100%;
-  background-color: #CCCCCC;
+  background-color: #cccccc;
   color: #4040409e;
   font-size: 12px;
 }
-
