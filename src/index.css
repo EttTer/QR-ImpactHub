@@ -40,17 +40,17 @@ input {
   }
 }
 
-button,
-a {
+button, a {
   appearance: none;
   outline: none;
   border: none;
   background: none;
   color: #404040;
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: 1;
   text-decoration: none;
   cursor: pointer;
+  margin: 1.5rem auto;
 }
 
 @media screen and (max-width: 900px) {
@@ -62,8 +62,8 @@ a {
 .App_img {
   display: block;
   width: 100%;
-  max-width: 300px;
-  margin: 3rem auto 2rem auto;
+  max-width: 200px;
+  margin: 0 auto 0 auto;
 }
 
 .ilustrace {
@@ -85,7 +85,7 @@ a {
 }
 
 .list {
-  width: 40%;
+  width: 60%;
   margin: 1rem auto;
   text-align: start;
   color: #404040;
@@ -99,15 +99,62 @@ a {
 
 .download {
   padding-bottom: 2rem;
-  padding-top: 1rem;
+  padding-top: 0.20rem;
+  cursor: pointer;
+  
 }
 
 footer a {
   position: fixed;
   left: 0;
-  bottom: 20px;
+  bottom: 10px;
   width: 100%;
   background-color: #cccccc;
   color: #4040409e;
   font-size: 12px;
 }
+
+
+.logo {
+  max-width: 100px;
+  max-height:100px;
+  padding-right: 1rem;
+} 
+.description { 
+  color: #404040;
+  margin: 0.5rem 2rem 1rem 0.5rem;
+
+}
+
+button { 
+ border: 1px solid #404040;
+ padding: 10px;
+
+}
+button:hover{
+  background-color: #404040;
+  color: #cccccc;
+}
+
+.input1 .input2{
+  width: 100%;
+}
+
+
+
+.inputs{
+  display: flex
+  ;
+  justify-content: center;
+  
+}
+@media screen and (max-width: 900px) {
+  .inputs { display: block ;
+
+    
+  }
+  .description {
+    margin-top: 0
+  }
+}
+

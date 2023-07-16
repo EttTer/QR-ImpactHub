@@ -2,6 +2,7 @@
 import QRCode from 'qrcode';
 import { useState } from 'react';
 import picture from "./assets/IH-ilustrace_05.png";
+import picture1 from "./assets/Logo IH ČR red (1).png"
 
 
 function App() {
@@ -48,27 +49,42 @@ function App() {
 	<>
     <div className="app">
       <div className='Hero'>
-        <h1>QR Generátor Impact Hub</h1>
+        <h1>QR Generátor</h1>
+        <img className='logo' src={picture1} />
         <img className='ilustrace' src={picture} />
       </div>
 	  <ul className='list'>
-		<li>Vlož URL adresu stránky, kam má kód odkazovat-do prvního rámečku</li><br></br>
-		<li>Vlož popis čeho se kód týká nebo kde bude použit-do druhého rámečku</li>
+		Nejedná se o jen tak nějaký generátor, tenhle do sebe automaticky zahrnuje data o tom, 
+    z kterého plakátu odkazuje. Umíme díky tomu v analytice změřit, kolik lidí si ho naskenovalo a víme, jestli nám ten konkrétní plakát v prostoru dělá nějakou službu. Nemusíme hádat. A to je boží!
 	  </ul>
+    <div className='inputs'>
+    
+    <div className='input1'> 
+    
       <input
         type="text"
         placeholder="e.g. https://impacthub.cz"
         value={url}
+        id="input1"
         onChange={e => setUrl(e.target.value)}
       />
+     <p for="input1" className='description'>Sem vlož URL, na kterou chceš odkázat</p>
+    </div>
+<div className='input2'>
       <input
         type="text"
-        placeholder="e.g. zivy_region_letak"
+        placeholder="e.g. Challenge_Lab_prihlasky"
         value={campaign}
+        id="input2"
         onChange={e => setCampaign(e.target.value)}
       />
+      <p for="input2" className='description'>Sem napiš o jaký plakát se jedná</p>
+
+</div>
+</div>
      {error && <p className="error">{error}</p>}
-      <button onClick={GenerateQRCode}>Generovat</button>
+
+      <button onClick={GenerateQRCode}>Vygenerovat</button>
       {qr && (
         <>
           <img className='App_img' src={qr} />
