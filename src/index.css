@@ -66,6 +66,12 @@ button, a {
   margin: 0 auto 0 auto;
 }
 
+@media screen and (max-width: 900px) {
+  .App_img {
+    max-width: 150px;
+  }
+}
+
 .ilustrace {
   width: 50%;
   max-width: 100px;
@@ -98,7 +104,7 @@ button, a {
 }
 
 .download {
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
   padding-top: 0.20rem;
   cursor: pointer;
   
@@ -107,7 +113,7 @@ button, a {
 footer a {
   position: fixed;
   left: 0;
-  bottom: 10px;
+  bottom: 5px;
   width: 100%;
   background-color: #cccccc;
   color: #4040409e;
