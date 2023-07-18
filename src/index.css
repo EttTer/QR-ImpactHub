@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.0rem;
   margin: 3rem;
 }
 
@@ -50,7 +50,7 @@ button, a {
   line-height: 1;
   text-decoration: none;
   cursor: pointer;
-  margin: 1.5rem auto;
+  margin: 1rem auto;
 }
 
 @media screen and (max-width: 900px) {
@@ -74,13 +74,14 @@ button, a {
 
 .ilustrace {
   width: 50%;
-  max-width: 100px;
+  max-width: 80px;
 }
 
 .Hero {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-height: 160px;
 }
 
 @media screen and (max-width: 900px) {
@@ -91,7 +92,7 @@ button, a {
 }
 
 .list {
-  width: 60%;
+  width: 45%;
   margin: 1rem auto;
   text-align: start;
   color: #404040;
@@ -113,34 +114,40 @@ button, a {
 footer a {
   position: fixed;
   left: 0;
-  bottom: 5px;
+  bottom: 3px;
   width: 100%;
   background-color: #cccccc;
   color: #4040409e;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 
 .logo {
-  max-width: 100px;
-  max-height:100px;
-  padding-right: 1rem;
+  width: 100%;
+  max-width: 90px;
+  max-height:90px;
+  padding-right: 1rem;;
+  margin-top: 1rem;
 } 
 .description { 
-  color: #404040;
+  color: #40404099;
   margin: 0.5rem 2rem 1rem 0.5rem;
+  font-size: 0.9rem;
 
 }
 
 button { 
- border: 1px solid #404040;
+ border: 1px solid #812926;
+ border-radius: 0.5rem;
  padding: 10px;
+ background-color: #812926;
+ color: #eee;
 
 }
-button:hover{
-  background-color: #404040;
-  color: #cccccc;
-}
+/*button:hover{
+  background-color:#cccccc;
+  color: #812926;
+}*/
 
 .input1 .input2{
   width: 100%;

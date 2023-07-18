@@ -1,4 +1,5 @@
 // Validation
+
 import QRCode from 'qrcode';
 import { useState } from 'react';
 import picture from "./assets/IH-ilustrace_05.png";
@@ -47,12 +48,14 @@ function App() {
 
   return (
 	<>
-    <div className="app">
+    <div className="app"> 
+    <img className='logo' src={picture1} />
       <div className='Hero'>
-        <h1>QR Generátor</h1>
-        <img className='logo' src={picture1} />
+        <h1>QR generátor</h1>
         <img className='ilustrace' src={picture} />
+        
       </div>
+     
 	  <ul className='list'>
 		Nejedná se o jen tak nějaký generátor, tenhle do sebe automaticky zahrnuje data o tom, 
     z kterého plakátu odkazuje. Umíme díky tomu v analytice změřit, kolik lidí si ho naskenovalo a víme, jestli nám ten konkrétní plakát v prostoru dělá nějakou službu. Nemusíme hádat. A to je boží!
@@ -63,7 +66,7 @@ function App() {
     
       <input
         type="text"
-        placeholder="e.g. https://impacthub.cz"
+        placeholder="e.g. www.impacthub.cz"
         value={url}
         id="input1"
         onChange={e => setUrl(e.target.value)}
