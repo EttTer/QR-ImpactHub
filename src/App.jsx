@@ -57,8 +57,9 @@ function App() {
       </div>
      
 	  <ul className='list'>
-		Nejedná se o jen tak nějaký generátor, tenhle do sebe automaticky zahrnuje data o tom, 
-    z kterého plakátu odkazuje. Umíme díky tomu v analytice změřit, kolik lidí si ho naskenovalo a víme, jestli nám ten konkrétní plakát v prostoru dělá nějakou službu. Nemusíme hádat. A to je boží!
+		Nejedná se jen tak o nějaký generátor. Tenhle do sebe automaticky zahrnuje data o tom, ze kterého plakátu návštěvník 
+    na web přichází. Umíme díky tomu v analytice změřit, kolik lidí si ho naskenovalo a víme, 
+    jestli nám konkrétní plakát v prostoru dělá potřebnou službu. Jasná čísla, žádné odhady. A to je boží!
 	  </ul>
     <div className='inputs'>
     
@@ -81,7 +82,7 @@ function App() {
         id="input2"
         onChange={e => setCampaign(e.target.value)}
       />
-      <p for="input2" className='description'>Sem napiš o jaký plakát se jedná</p>
+      <p for="input2" className='description'>Sem napiš, o jaký plakát se jedná</p>
 
 </div>
 </div>
