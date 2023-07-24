@@ -112,10 +112,7 @@ button, a {
 }
 
 footer a {
-  position: fixed;
-  left: 0;
-  bottom: 3px;
-  width: 100%;
+  position: static;
   background-color: #cccccc;
   color: #4040409e;
   font-size: 10px;
@@ -171,3 +168,13 @@ button {
   }
 }
 
+
+/*footer a {
+  position: fixed;
+  left: 0;
+  bottom: 3px;
+  width: 100%;
+  background-color: #cccccc;
+  color: #4040409e;
+  font-size: 10px;
+}*/
