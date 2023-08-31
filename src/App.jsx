@@ -32,8 +32,9 @@ function App() {
       width: 800,
       margin: 2,
       color: {
-        dark: '#812926',
-        //Add transparent background of the image, instead of: light: '#EEEEEEFF'
+        // Impacthub red color: #812926'
+        dark: '#FFFFFF',
+        //Add transparent background of the image, instead of: light: '#EEEEEEFF' /transparent #0000
         light: '#0000'
       }
     }, (err, url) => {
